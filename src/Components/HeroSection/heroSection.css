@@ -1,0 +1,24 @@
+.hs-content {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.hs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 270px;
+  width: 100vw;
+  background-color: black;
+}
+
+.hs-img-frame {
+  width: 212px;
+  height: 212px;
+}
+
+.hs-img {
+  width: 100%;
+  height: 100%;
+}

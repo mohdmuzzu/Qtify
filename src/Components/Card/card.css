@@ -1,0 +1,41 @@
+.card-wrapper {
+  display: flex;
+  height: 235px;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 200px;
+}
+
+.card-label {
+  height: 30px;
+  color: white;
+}
+
+.card {
+  flex: 1;
+  flex-direction: column;
+  display: flex;
+  border-radius: 10px;
+  padding: 32px;
+}
+
+.card-content {
+  height: 30px;
+  background-color: var(--css-white);
+}
+
+.card-content-pill {
+  background-color: var(--css-black);
+  color: var(--css-white);
+}
+
+.card-img-frame {
+  width: 100%;
+  flex: 1;
+}
+
+.card-img-frame img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
