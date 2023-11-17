@@ -1,18 +1,17 @@
 /* eslint-disable import/no-anonymous-default-export */
 import "./card.css";
 
-export default () => {
+export default ({ imgSrc, followersCount, label }) => {
   return (
     <div className="card-wrapper">
       <div className="card">
         <div className="card-img-frame">
-          <img className="card-img" src="Group 7495.png" alt="song" />
+          <img className="card-img" src={imgSrc} alt="songs" />
         </div>
         <div className="card-content">
-          <div className="card-content-pill">
-            <p className="card-label">New English Songs</p>
-          </div>
+          <span className="card-content-pill">{followersCount}100 follows</span>
         </div>
+        <p className="card-label">{label}</p>
       </div>
     </div>
   );
