@@ -1,7 +1,7 @@
 /* eslint-disable import/no-anonymous-default-export */
 import Carousel from "../Carousel";
 
-export default (tittle, data) => {
+export default ({ tittle, data }) => {
   return (
     <div className="section">
       <div>
